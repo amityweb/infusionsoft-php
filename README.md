@@ -39,7 +39,7 @@ The client ID and secret are the key and secret for your OAuth2 application foun
 
 ```php
 
-if(empty(session_id();)) session_start();
+if(empty(session_id())) session_start();
 
 require_once 'vendor/autoload.php';
 
